@@ -1,4 +1,4 @@
-path: /content/VisDrone
+path: /content/drive/MyDrive/yolo_uav_experiments/datasets/VisDrone
 
 train: images/train
 val: images/val
