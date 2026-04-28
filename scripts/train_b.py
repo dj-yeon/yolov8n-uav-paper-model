@@ -35,7 +35,7 @@ def main():
     print_env()
 
     MODEL_YAML = "configs/yolov8n_b_condconv_frelu.yaml"
-    DATA_YAML = "configs/visdrone.yaml"
+    DATA_YAML = "configs/visdrone_colab.yaml"
 
     PROJECT_DIR = "/content/drive/MyDrive/yolo_uav_experiments/runs"
     RUN_NAME = "B_condconv_frelu"

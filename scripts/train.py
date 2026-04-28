@@ -5,7 +5,7 @@ def main():
     model = YOLO("configs/yolov8n_paper.yaml")
 
     model.train(
-        data="configs/visdrone.yaml",
+        data="configs/visdrone_colab.yaml",
         epochs=150,
         imgsz=640,
         batch=16,

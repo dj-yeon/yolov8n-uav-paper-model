@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 def main():
     WEIGHT_PATH = "/content/drive/MyDrive/yolo_uav_experiments/runs/B_condconv_frelu/weights/best.pt"
-    DATA_YAML = "configs/visdrone.yaml"
+    DATA_YAML = "configs/visdrone_colab.yaml"
 
     model = YOLO(WEIGHT_PATH)
 
