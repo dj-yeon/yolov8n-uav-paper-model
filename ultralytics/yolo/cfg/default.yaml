@@ -83,6 +83,7 @@ warmup_epochs: 3.0  # warmup epochs (fractions ok)
 warmup_momentum: 0.8  # warmup initial momentum
 warmup_bias_lr: 0.1  # warmup initial bias lr
 box: 7.5  # box loss gain
+box_loss: ciou  # box loss type, choices=['ciou', 'wise_iou']
 cls: 0.5  # cls loss gain (scale with pixels)
 dfl: 1.5  # dfl loss gain
 fl_gamma: 0.0  # focal loss gamma (efficientDet default gamma=1.5)
